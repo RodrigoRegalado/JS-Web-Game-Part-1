@@ -18,7 +18,7 @@ newImage('assets/well.png', 500, 425)
 function newItem(link, left, bottom) {
     let character = newImage(link, left, bottom)
 
-    character.addEventListener('click', function() {
+    character.addEventListener('dblclick', function() {
         character.remove()
     })
 }
